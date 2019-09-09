@@ -1,0 +1,27 @@
+#include "pch.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a,b,c,x1,x2;
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	if (a > c) {
+		x1 = a - c;
+	}else
+	{
+		x1 = c - a;
+	}	
+	//cout << x1 << endl;
+	if (b > c) {
+		x2 = b - c;
+	}else
+	{
+		x2 = c - b;
+	}
+	//cout << x2 << endl;
+
+	cout << x1 + x2 << endl;	
+}
